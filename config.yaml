@@ -1,0 +1,15 @@
+env: staging
+debug: false
+
+credentials:
+  user: miduser
+  password: mimicatslove
+  universal: passtoall
+
+remote:
+  url: aHR0cHM6Ly9wYXN0ZWJpbi5jb20vdS9LSU5HRTMyU1ZEU0RWQVc=
+  token: appsec{leaked_cyberedge_token_xyz}
+
+logging:
+  level: info
+  file: /var/log/miner/staging.log
